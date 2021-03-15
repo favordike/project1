@@ -1,0 +1,133 @@
+
+#title {background-color: #ff4c68;
+color: #fff}
+.container-fluid {padding: 3% 15% 7%;}
+
+h1 {font-family: 'Montserrat-black';
+size: 4.5rem;
+line-height: 1.5;
+font-weight: bold;}
+.navbar-brand {
+font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'monserrat-light';
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: +1;
+
+}
+
+.feature2 {
+  padding: 10% 20%;
+  background-color: #fff;
+}
+.fa-icon {
+  color: #ef8172;
+  padding-left: 40%;
+}
+.fa-icon:hover {
+  color: #ff4c68;
+}
+h3 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+h2 {
+  font-family: cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #fff;
+
+}
+.featurec {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+.carousel-item {
+  padding: 7% 20%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%
+}
+@media (max-width: 998px) {
+  #title {text-align: center;}
+  .title-image {position: static;
+  transform: rotate(0);}
+
+}
+#cta {
+  background-color: #ff4c68;
+  padding: 50px 0 80px;
+  text-align: center;
+}
+.diff {
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 250px;
+}
+#footer {
+  padding: 2% 0;
+  text-align: center;
+  background-color: #fff;
+}
+.foot {
+  margin: 8px 5px 10px;
+}
+@media (max-width: 900px) {
+  #cta {
+    text-align: center;
+  }
+.diff {
+  font-size: 40px;
+  margin: 0 100px;
+}
+}
